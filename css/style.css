@@ -1274,3 +1274,31 @@ footer .block span {
 .lupa{
 	width: 21px;
 }
+@media(max-width: 767px){
+	#features{
+		margin: 140px 0 -10px;
+	}
+}
+
+
+.products.Nvegetarian:hover a img {
+	border-color: #c32222;
+}
+.products.Nvegetarian:hover h4 {
+    color: #c32222;
+}
+.products.vegetarian:hover a img {
+	border-color: #c3c322;
+}
+.products.vegetarian:hover h4 {
+    color: #c3c322;
+}
+#catagorie .block .thumbnail.vegetarian:hover h3 {
+    color: #c3c322;
+}
+
+.blog-sidebar .block .list-group .list-group-item:hover {
+    background: #90c322;
+    color: #fff;
+    padding-left: 20px;
+}
