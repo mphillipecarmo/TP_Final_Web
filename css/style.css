@@ -64,7 +64,7 @@ section+section { margin-top: 50px; }
 	margin-right: 10px;
 }
 #top .login-cart li {
-	float: left;
+	float: right;
 }
 #top .login-cart li a {
 	color: #fff ;
@@ -1225,4 +1225,16 @@ footer .block span {
 }
 .top-catagori-heading {
 	margin-top: 0;
+}
+.search-bar {
+    margin: 0 100px 0 50px;
+    min-width: 500px;
+    width: -webkit-fill-available;
+    padding: 10px;
+    border: solid 2px #90c322;
+    border-radius: 50px;
+	box-shadow: 0 0 4px rgb(0 0 0 / 30%);
+}
+.search-bar:focus-visible {
+	box-shadow: 0 0 17px rgb(144 195 34);
 }
