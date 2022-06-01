@@ -390,6 +390,7 @@ header {
 	margin-top: 10px;
 	margin-bottom: 0;
 	color: #fff;
+	text-align: center;
 }
 #features .block i {
 	font-size: 60px;
@@ -544,6 +545,19 @@ header {
 	font-weight: bold;
 	margin-bottom: 8px;
 }
+.back_vegan {
+	background-color: #90c322  !important;
+
+}
+.back_vegetarian {
+	background-color: #c3c322 !important; 
+
+}
+.back_Nvegetarian {
+	background-color: #c32222 !important;
+
+}
+
 
 
 
