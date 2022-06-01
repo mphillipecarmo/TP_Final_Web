@@ -1254,7 +1254,7 @@ footer .block span {
 	box-shadow: 0 0 17px rgb(144 195 34);
 }
 
-.btn-success{
+.search-button{
 	border-radius: 33px;
     width: 45px;
     height: 45px;
@@ -1297,8 +1297,6 @@ footer .block span {
     color: #c3c322;
 }
 
-.blog-sidebar .block .list-group .list-group-item:hover {
-    background: #90c322;
-    color: #fff;
-    padding-left: 20px;
+.blog-sidebar .block .list-group .list-group-item.Vegetarian:hover {
+    background: #c3c322;
 }
