@@ -1241,14 +1241,36 @@ footer .block span {
 	margin-top: 0;
 }
 .search-bar {
-    margin: 0 100px 0 50px;
+    /* margin: 0 100px 0 50px;
     min-width: 500px;
-    width: -webkit-fill-available;
+    width: -webkit-fill-available; */
     padding: 10px;
     border: solid 2px #90c322;
     border-radius: 50px;
 	box-shadow: 0 0 4px rgb(0 0 0 / 30%);
+	width: calc(100% - 4em);
 }
 .search-bar:focus-visible {
 	box-shadow: 0 0 17px rgb(144 195 34);
+}
+
+.btn-success{
+	border-radius: 33px;
+    width: 45px;
+    height: 45px;
+    box-shadow: 0 0 4px rgb(0 0 0 / 30%);
+	background-color: #90c322;
+    border-color: #90c322;
+}
+
+#features{
+	margin: 40px 0 -60px;
+}
+
+#catagorie .row{
+    margin: -5px 0 32px 0;
+}
+
+.lupa{
+	width: 21px;
 }
