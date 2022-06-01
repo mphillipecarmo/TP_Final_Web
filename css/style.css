@@ -526,9 +526,21 @@ header {
 	-o-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
 }
-.price {
+.vegan {
 	font-size: 22px;
 	color: #90c322;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+.vegetarian {
+	font-size: 22px;
+	color: #c3c322;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+.Nvegetarian {
+	font-size: 22px;
+	color: #c32222;
 	font-weight: bold;
 	margin-bottom: 8px;
 }
