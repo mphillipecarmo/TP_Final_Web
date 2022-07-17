@@ -1,0 +1,40 @@
+version: "3"
+services:
+  db:
+    image: veglife-mysql
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          cpus: "1"
+          memory: 50M
+      restart_policy:
+        condition: always
+    ports:
+      - "3306:3306"
+    networks: 
+      - db_veglife
+
+  rest-api:
+    image: rest-api
+    depends_on: 
+      - db
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: always
+    working_dir: /home/node/api
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./:/home/node/app
+    ports:
+      - "8080:3000"
+    networks: 
+      - db_veglife
+
+volumes:
+  db_data:
+
+networks: 
+  db_veglife:
